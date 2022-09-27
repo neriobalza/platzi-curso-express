@@ -1,0 +1,30 @@
+{
+  "name": "platzi-curso-backend-express",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "start": "node ./index.js"
+  },
+  "keywords": [
+    "JavaScript",
+    "Node",
+    "Express"
+  ],
+  "author": "Nerio Balza",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^10.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.3.0",
+    "nodemon": "^2.0.18"
+  }
+}
